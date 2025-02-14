@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+      "ms-python.python",                       // Python support
+      "eamodio.gitlens",                        // Git superpowers
+      "ms-vscode-remote.remote-containers",     // Dev Containers
+      "redhat.vscode-yaml",                     // YAML support
+      "mhutchie.git-graph",                     // Visualize Git history
+      "ms-azuretools.vscode-docker",            // Docker integration
+      "ms-vscode.cpptools",                     // C/C++ development
+      "ms-python.vscode-pylance",               // Python IntelliSense
+      "mechatroner.rainbow-csv",                // CSV support
+      "yzhang.markdown-all-in-one"              // Markdown support
+    ]
+  }
