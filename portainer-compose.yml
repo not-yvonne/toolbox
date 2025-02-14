@@ -3,7 +3,7 @@
 services:
   myapp:
     container_name: mystack
-    image: dockerstepbystep:latest
+    image: portainer/portainer-ce
     build: .
     ports:
       - "8060:8060"
