@@ -1,11 +1,11 @@
-services:
 
-  # Building and testing environment
-  app:
-    image: ghcr.io/growlf/toolbox:testing
-    stdin_open: true
-    tty: true
-    command: ["/bin/zsh"]
+
+services:
+  myapp:
+    container_name: mystack
+    image: dockerstepbystep:latest
+    build: .
+    ports:
+      - "8060:8060"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    network_mode: "host"
+      - "./app_data:/var/app_data"
